@@ -1,0 +1,48 @@
+# MAKINE OGRENMESINDE SIK KULLANILAN KAVRAMLAR
+-BAGIMLI DEGISKEN:
+Hedeflenen ana degiskendir.
+-BAGIMSIZ DEGISKEN
+Bagımlı degisken bu bagımsız degiskenlere bagimlidir.
+
+##OGRENME TURLERI
+GOZETIMLI OGRENME
+Bağımlı degisken ve bu bagımlı degiskeni bir araya getiren bagımsız degiskenler bir aradaysa buna gözetimli öğrenme denir.
+GOZETIMSIZ OGRENME
+Bağımlı değişken çalışmanın içerisinde yoktur.
+PEKISTIRMELI OGRENME
+YARI DENETIMLI OGRENME
+
+##PROBLEM TURLERİ
+REGRESYON
+Bağımlı değişkenin sayısal bir değişken olmasını ifâde eder.
+SINIFLANDIRMA
+Bağımlı değişken kategorik bir değişken ise bu da bir sınıflandırma problemidir.
+
+##MODEL EGITMEK
+TEST-TRAIN
+Orjinal veri setini, Eğitim seti ve test seti olarak ayırırız.
+
+#Model neye göre seçilir?
+Regresyon problemleri için açıklanabilirlik oranı ve RMSE türevi bir değer.
+Sınıflandırma için doğru sınıflandırma oranı türevi bir değer.
+
+#AŞIRI ÖĞRENME(OVERFITTING)
+#DETERMİNİSTİK MODELLER VE STOKASTİK MODELLER
+Değişkenler arasındaki kesin bir ilişki olduğunu varsayan modele denir. - Deterministik
+Olasılıksal modellerdir, sürekli kullanacağımız modeldir. -Stokastik
+
+#Model kurmak ne demek?
+Bağımlı değişken ile bağımsız değişkenler arasındaki ilişkiyi modellemek demektir.
+
+#Model doğrulama yöntemleri
+Holdout yöntemi; Orjinal veri setini eğitim seti ve test seti olarak ikiye ayrılır.
+K-katlı çarpraz doğrulama(k fold cross validation)
+Leave One Out(k-katlı'nın özel bir halidir)
+Bootstrap yöntemi
+
+#Model başarı değerlendirme yöntemleri
+#YANLILIK - VARYANS DEĞİŞ TOKUŞU
+Eğitim hatası test hatasının yanlı ve kötü bir tahmincisidir.
+#MODEL TUNING
+Model parametreleri: Veriden öğrenilen parametrelerdir
+Model hiperparametreleri: Kullanıcı tarafından belirlenen ve veri ile optimize edilen parametrelerdir.
